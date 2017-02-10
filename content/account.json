@@ -1,0 +1,33 @@
+{
+  "title": "Erhebungsbogen „Kundenangaben“",
+  "subtitle": "(Angaben nach § 31 Abs. 4 und Abs. 5 Wertpapierhandelsgesetz (WpHG) i.V.m. § 6 Wertpapierdienstleistungs-Verhaltens- und Organisationsverordnung (WpDVerOV))",
+  "sections": [
+    {
+      "name": "customer",
+      "form": {
+        "fields": [
+          {
+            "qa": {
+              "type": "text",
+              "label": "Name:"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "investment-objective",
+      "form": {
+        "label": "Was ist Ihr Anlageziel?",
+        "fields": [
+          {
+            "qa": {
+              "type": "checkbox",
+              "label": "Eigener Vermögensaufbau"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
